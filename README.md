@@ -1,4 +1,4 @@
-# 🎵 OcWave
+# 🎵 OcWave - School Version
 
 A simple **web-based music player** that lets users upload songs, play them, and manage playback — all stored locally using the **IndexedDB API**.
 
@@ -97,7 +97,7 @@ Music-player/
 
 ## 🔗 Live Demo
 
-_You can host this via GitHub Pages or Netlify_
+[🎧 Try the Music Player here](https://ocwave.netlify.app)
 
 ---
 
@@ -110,5 +110,4 @@ _You can host this via GitHub Pages or Netlify_
 
 ## 📌 Status
 
-🚧 Still under development.  
-More features like Dark-Mode are planned.
+Completed
