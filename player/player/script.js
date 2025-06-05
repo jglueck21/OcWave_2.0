@@ -172,7 +172,7 @@ function handleFileSelection(files) {
       document.querySelector('.container').style.display = '';
       document.querySelector('.background').style.display = '';
       fileSelectionModal.style.display = "none";
-      loadMusic(songs[musicIndex]);
+  loadMusic(songs[musicIndex]);
     }, 1000);
   }
 }
@@ -223,7 +223,7 @@ function playMusic() {
   isPlaying = true;
   playBtn.classList.replace("fa-play", "fa-pause");
   playBtn.setAttribute("title", "Pause");
-  
+
   music.play().catch((error) => {
     console.error("Playback failed:", error);
     alert("Failed to play the song. Please try again.");
@@ -312,7 +312,7 @@ function changeMusic(direction) {
     musicIndex = newIndex;
   } else {
     // Normal sequential playback
-    musicIndex = (musicIndex + direction + songs.length) % songs.length;
+  musicIndex = (musicIndex + direction + songs.length) % songs.length;
   }
 
   loadMusic(songs[musicIndex]);
